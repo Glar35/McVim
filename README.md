@@ -23,7 +23,9 @@ nvim  # LazyVim will bootstrap on first launch
 
 ## Recommended terminal
 
-The keybindings rely on [Kitty](https://sw.kovidgoyal.net/kitty/)'s keyboard protocol so Option+letter and Cmd-combos reach Neovim cleanly. McVim also needs one explicit Kitty mapping so Option+\ (the leader) is delivered as a literal backslash:
+The keybindings rely on [Kitty](https://sw.kovidgoyal.net/kitty/)'s keyboard protocol so Option+letter and Cmd-combos reach Neovim cleanly. A ready-to-use macOS Kitty config — matching colorscheme/transparency plus all the mappings McVim needs (the Option+\ leader, Cmd+C forwarding, Cmd+Left/Right, `macos_option_as_alt`, and more) — is bundled in **[`mac/`](mac/)**, along with an optional Karabiner-Elements rule for tab navigation. See [`mac/README.md`](mac/README.md) for setup.
+
+At minimum, McVim needs this one Kitty mapping so Option+\ (the leader) is delivered as a literal backslash:
 
 ```conf
 # ~/.config/kitty/kitty.conf
