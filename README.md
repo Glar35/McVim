@@ -1,5 +1,7 @@
 # McVim
 
+> **Note:** McVim was built collaboratively with [Claude](https://claude.com/claude-code) (Anthropic's Claude Code). The keymaps, autocmds, plugin overrides, and the README itself were generated through an iterative back-and-forth with the assistant.
+
 McVim is a Neovim configuration built on top of LazyVim that gives you the keybindings you already know from every other app on your Mac — Cmd+S to save, Cmd+C/V to copy/paste, Cmd+F to find, Cmd+Z to undo, arrow keys for selection with Shift, and so on. Vim's modal power is still there, just under Option (Alt): Option+letter triggers the equivalent Vim motion or prefix, and Option+\ is the leader. It starts you in insert mode and stays there, so typing feels like any normal editor while every Vim trick remains one Option-press away.
 
 ## Features
@@ -33,3 +35,5 @@ Other terminals may work but are untested. Ports to other terminals / Windows ar
 ## Credit / license
 
 Built on top of [LazyVim](https://github.com/LazyVim/LazyVim) (MIT). McVim is also MIT-licensed — see [LICENSE](LICENSE).
+
+Generated with [Claude Code](https://claude.com/claude-code) — see the note at the top of this README.
